@@ -133,6 +133,11 @@
     font-size: 60px;
     font-weight: 700;
     line-height: 1.15em;
+    z-index: 1;
+}
+
+.section-title_theme_dark {
+    color: white;
 }
 
 .section-subtitle {
@@ -143,6 +148,11 @@
     font-size: 24px;
     font-weight: normal;
     line-height: 34px;
+    z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+    color: white;
 }
 
 .table {
@@ -156,7 +166,9 @@
 
 .table__cell {
     margin-top: 60px;
+    margin-right: 0;
     width: 250px;
+    z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -218,4 +230,19 @@
     font-size: 36px;
     font-weight: normal;
     text-decoration: none;
+}
+
+.kaufman {
+    background-color: #1f1f1f;
+    padding: 90px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.triangle-image {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    right: -210px;
+    top: 0;
 }
