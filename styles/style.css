@@ -201,17 +201,19 @@
     background-image: url(../images/feynman.png);
     background-position: bottom left;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    /* это растягивает блок на 890px но выглядит как на макете*/
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .feynman__title {
     width: 648px;
     margin: 0;
+    margin-top: 100px;
     line-height: 1.15em;
     font-size: 120px;
     font-weight: 700;
