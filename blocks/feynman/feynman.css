@@ -4,11 +4,9 @@
     background-image: url(../images/feynman.png);
     background-position: bottom left;
     background-repeat: no-repeat;
-    /* padding-top: 100px; */
-    /* это растягивает блок на 890px но выглядит как на макете*/
+    padding-top: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    /* box-sizing: border-box; */
 }
