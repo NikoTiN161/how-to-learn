@@ -1,7 +1,0 @@
-.link_opacity_half {
-        transition: opacity .5s ease-out;
-    }
-    
-    .link_opacity_half:hover {
-        opacity: .5;
-    }
