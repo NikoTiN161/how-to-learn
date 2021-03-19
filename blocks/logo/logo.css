@@ -1,0 +1,10 @@
+.logo {
+    background-image: url(../images/logo_place_header.svg);
+    background-repeat: no-repeat;
+    width: 183px;
+    transition: opacity .5s ease-out;
+}
+
+.logo:hover {
+    opacity: .5;
+}
